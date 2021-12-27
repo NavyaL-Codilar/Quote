@@ -1,0 +1,29 @@
+.Quote {
+  color: rgba(255, 174, 0, 0.911);
+  display: flex;
+  font-size: 2.8rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 8rem 0 8rem;
+  height: 23rem;
+  padding: 3rem;
+  background: url("bImg.jpeg");
+  background-size: 29rem 20rem;
+  border-style: solid;
+  border-width: 3rem;
+  border-image: linear-gradient(90deg, rgb(14, 82, 230), rgb(250, 201, 66)) 2;
+}
+
+.next img {
+  height: 30px;
+}
+
+.prev img {
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
